@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+  <offices>
+    <office code="office1">Office 1</office>
+  </offices>
+  <person id="person1" office="office1">
+    <name>
+      <first>John</first>
+      <surname>Doe</surname>
+    </name>
+    <address>
+      <city>New York</city>
+      <street>Main Street</street>
+      <index>123456</index>
+    </address>
+    <phones>
+      <phone type="work">123-45-67</phone>
+      <phone type="home">987-65-43</phone>
+    </phones>
+  </person>
+</notebook>
